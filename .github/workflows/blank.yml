@@ -29,8 +29,5 @@ jobs:
 
     - name: Run Python script
       run: |
-        python -c "
-        import requests
-        a = requests.get('https://icanhazip.com/')
-        print(a.text)
-        "
+        python3 main.py
+        cat otvet.txt
